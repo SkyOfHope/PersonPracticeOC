@@ -10,7 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIBarButtonItem_Extension : UIBarButtonItem
+@interface UIBarButtonItem (Extension)
+
++(instancetype)barButtonItemWithImage:(NSString *)image highImage:(NSString *)highImage target:(id)target action:(SEL)action;
+
 
 @end
 

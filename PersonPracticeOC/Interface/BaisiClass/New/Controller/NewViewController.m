@@ -17,7 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.tabBarController.tabBar showBadge:@"10" BadgeColore:[UIColor grayColor] BadgeBackGroundColor:[UIColor orangeColor] atIndex:1];
+    
+    
 }
+
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [MobClick beginLogPageView:@"Pagename"];
+    
+}
+
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    
+    [MobClick endLogPageView:@"Pagename"];
+}
+
 
 /*
 #pragma mark - Navigation

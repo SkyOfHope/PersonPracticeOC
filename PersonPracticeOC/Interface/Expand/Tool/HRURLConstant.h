@@ -115,21 +115,6 @@ static NSString * const PHP_USER_LOGIN = @"/Login/sendCode.aspx";
 
 
 
-#define Post_CheckInfo  @"/public/index/Login/CheckInfo"
-
-
-//6.更改个人信息
-#define Post_EditPersonInfo  @"/open/infocenter/client?method=editinfo"
-//#define Post_EditPersonInfo @"/open/Infocenter/client?method=log_test"
-
-//7.修改密码
-#define Post_ModifyPassword @"/open/infocenter/client?method=editpassword"
-
-//地区列表
-#define Post_LoginRegionlist  @"/public/index/login/regionlist"
-
-//商品信息
-#define Post_Goodsinfos @"/public/index/Goods/infos"
 
 
 

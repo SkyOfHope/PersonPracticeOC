@@ -17,15 +17,21 @@
 #import "UIViewController+MMDrawerController.h"
 #import "MMDrawerBarButtonItem.h"
 
+#import "GlobalConst.h"
+#import "UIBarButtonItem+Extension.h"
+
+#import "UITabBar+Badge.h"
 
 
-
-#import "GlobalVariable.h"
 
 /* 第三方 */
 #import "MJRefresh.h"
 #import "UIImageView+WebCache.h"
 #import "MBProgressHUD+JDragon.h"
+
+#import <UMCommon/UMCommon.h>
+#import <UMCommonLog/UMCommonLogHeaders.h>
+#import <UMAnalytics/MobClick.h>
 
 
 /* 网络请求 */

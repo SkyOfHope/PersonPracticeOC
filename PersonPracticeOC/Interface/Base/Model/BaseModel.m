@@ -10,4 +10,23 @@
 
 @implementation BaseModel
 
+-(id)initWithDictionary:(NSDictionary *)jsonDic{
+    
+    if (self = [super init]) {
+        [self setValuesForKeysWithDictionary:jsonDic];
+    }
+    
+    return self;
+}
+
+
+-(void)setValue:(id)value forKey:(NSString *)key{
+    if ([key isEqualToString:@"id"]) {
+        self.ID = [NSString stringWithFormat:@"%@",value];
+    }else{
+        [super setValue:value forKey:key];
+    }
+}
+
+
 @end

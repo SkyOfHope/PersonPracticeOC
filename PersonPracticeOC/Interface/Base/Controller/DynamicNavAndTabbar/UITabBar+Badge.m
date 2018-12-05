@@ -8,7 +8,26 @@
 
 #import "UITabBar+Badge.h"
 
-@implementation UITabBar_Badge
+@implementation UITabBar (Badge)
+
+-(void)showBadge:(NSString *)badge atIndex:(NSInteger)index{
+    
+    
+    
+}
+
+-(void)showBadge:(NSString *)badge BadgeColore:(UIColor *)badegeColore BadgeBackGroundColor:(UIColor *)backgroundColor atIndex:(NSInteger)index{
+    
+    
+    
+}
+
+-(void)clearBadgeAtIndex:(NSInteger)index{
+    
+    
+}
+
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

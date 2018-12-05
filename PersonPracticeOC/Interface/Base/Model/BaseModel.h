@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseModel : NSObject
 
+@property (nonatomic, strong) NSString *ID;
+
+-(id)initWithDictionary:(NSDictionary *)jsonDic;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
